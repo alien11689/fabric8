@@ -67,7 +67,7 @@
 
     <site>
       <id>github-project-site</id>
-      <url>gitsite:git@github.com/fabric8io/fabric8.git</url>
+      <url>gitsite:git@github.com/touk/fabric8.git</url>
     </site>
   </distributionManagement>
 
