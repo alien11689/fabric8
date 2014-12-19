@@ -56,9 +56,9 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git@github.com:fabric8io/fabric8.git</connection>
-    <developerConnection>scm:git:git@github.com:fabric8io/fabric8.git</developerConnection>
-    <url>http://github.com/fabric8io/fabric8/tree/master</url>
+    <connection>scm:git:git@github.com:touk/fabric8.git</connection>
+    <developerConnection>scm:git:git@github.com:touk/fabric8.git</developerConnection>
+    <url>http://github.com/touk/fabric8/tree/master</url>
   </scm>
 
   <properties>
@@ -70,10 +70,15 @@
 
   <distributionManagement>
     <repository>
+        <id>touk-releases-repository</id>
+        <name>TouK Releases Repository</name>
+        <url>https://philanthropist.touk.pl/nexus/content/repositories/releases</url>
+      </repository>
+<!-- <repository>
       <id>jboss-releases-repository</id>
       <name>JBoss Releases Repository</name>
       <url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2</url>
-    </repository>
+    </repository>-->
   </distributionManagement>
 
   <dependencyManagement>

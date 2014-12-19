@@ -86,7 +86,7 @@
             <artifactId>spring-web</artifactId>
         </dependency>
 
-        <!--- API tests dependencies -->
+        <!-- API tests dependencies -->
         <dependency>
             <groupId>io.fabric8.samples</groupId>
             <artifactId>process-sample-camel-spring</artifactId>
