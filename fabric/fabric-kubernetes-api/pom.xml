@@ -16,14 +16,13 @@
      permissions and limitations under the License.
 
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
     <artifactId>fabric-project</artifactId>
     <groupId>io.fabric8</groupId>
-    <version>1.2.0-SNAPSHOT</version>
+    <version>1.2.0.touk-02</version>
   </parent>
 
   <groupId>io.fabric8</groupId>
@@ -243,13 +242,13 @@
                 <configuration>
                   <target>
                     <echo>copying kubernetes API code into project</echo>
-                    <mkdir dir="${kube.dir}/api"/>
+                    <mkdir dir="${kube.dir}/api" />
                     <copy todir="${kube.dir}/api">
-                      <fileset dir="target/kubernetes-checkout/api"/>
+                      <fileset dir="target/kubernetes-checkout/api" />
                     </copy>
                     <exec executable="git" failonerror="true" dir="${basedir}">
-                      <arg value="add"/>
-                      <arg value="${kube.dir}/api"/>
+                      <arg value="add" />
+                      <arg value="${kube.dir}/api" />
                     </exec>
                     <echo>Updated the kubernetes API to ${kube.dir}/api</echo>
                   </target>
