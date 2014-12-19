@@ -26,7 +26,7 @@
 
     <groupId>io.fabric8.bom</groupId>
     <artifactId>fabric8-bom</artifactId>
-    <version>1.2.0-SNAPSHOT</version>
+    <version>1.2.0.touk-03</version>
     <packaging>pom</packaging>
 
     <name>Fabric8</name>
@@ -62,7 +62,7 @@
         <connection>scm:git:git@github.com:TouK/fabric8.git</connection>
         <developerConnection>scm:git:git@github.com:TouK/fabric8.git</developerConnection>
         <url>https://github.com/touk/fabric8/tree/master</url>
-      <tag>HEAD</tag>
+      <tag>fabric8-1.2.0.touk-03</tag>
   </scm>
 
     <prerequisites>
